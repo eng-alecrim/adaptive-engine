@@ -55,6 +55,5 @@ for t in range(T):
     if rec_item!=None:
         engine.bayesUpdate(u,rec_item,score[t],t)
         
-print "updating model"        
+print ("updating model")        
 engine.updateModel()
-        
